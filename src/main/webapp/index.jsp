@@ -85,7 +85,7 @@ span.psw {
     <input type="text" placeholder="Enter Admin UserName" name="uname" required>
 
     <label for="psw"><b>Enter Admin Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Default Admin Password" name="psw" required>
         
     <button type="submit">Login</button>
     <label>
