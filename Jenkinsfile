@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    checkout scm
     stages {
        stage('testing pipeline'){
           steps{
@@ -9,4 +8,5 @@ pipeline {
                     sh 'touch from-jenkins/test.txt'
                 }
         }
+}
 }
